@@ -2,9 +2,10 @@ package goit.module6.musicShop;
 
 public class Piano extends MusicInstrument{
 
-    private static String namePiano = "piano";
+    private final String name = "piano";
 
-    public static String getNamePiano() {
-        return namePiano;
+    @Override
+    public  String getName() {
+        return name;
     }
 }

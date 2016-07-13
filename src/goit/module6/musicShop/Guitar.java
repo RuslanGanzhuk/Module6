@@ -2,9 +2,10 @@ package goit.module6.musicShop;
 
 public  class Guitar extends MusicInstrument{
 
-    private static String nameGuitar = "guitar";
+    private final String name = "guitar";
 
-    public static String getNameGuitar() {
-        return nameGuitar;
+    @Override
+    public String getName() {
+        return name;
     }
 }

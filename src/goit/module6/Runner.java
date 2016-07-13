@@ -12,9 +12,8 @@ public class Runner {
     public static void main(String[] arg) {
         MusicShop musicShop = new MusicShop();
 
-        MusicShop.welcomeToShop();
-        MusicInstrument.createListInstrument();
-        Order.createOrder();
+        Order order = new Order(musicShop);
+        order.createOrder();
     }
 }
 
