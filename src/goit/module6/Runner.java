@@ -10,6 +10,8 @@ import goit.module6.musicShop.*;
 public class Runner {
 
     public static void main(String[] arg) {
+        MusicShop musicShop = new MusicShop();
+
         MusicShop.welcomeToShop();
         MusicInstrument.createListInstrument();
         Order.createOrder();

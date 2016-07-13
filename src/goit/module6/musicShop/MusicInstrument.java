@@ -8,7 +8,6 @@ public class MusicInstrument {
 
     public static void createListInstrument() {
 
-        Map<String, Integer> instrument = new HashMap<>();
         instrument.put(Piano.getNamePiano(), 90);
         System.out.println("Assortiment Piano in our shop: " + instrument.get(Piano.getNamePiano()));
         instrument.put(Guitar.getNameGuitar(), 100);
