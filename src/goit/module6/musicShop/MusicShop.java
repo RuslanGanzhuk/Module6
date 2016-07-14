@@ -15,7 +15,7 @@ public class MusicShop {
         printInstrument();
     }
 
-    public static void welcomeToShop(){
+    public void welcomeToShop(){
 
         System.out.println("Hello,welcome to our music shop 'GoIt'");
         System.out.println("Discover our range : ");
@@ -34,13 +34,11 @@ public class MusicShop {
             Map.Entry<String, Integer> pair = (Map.Entry) iterator.next();
             System.out.println("Assortiment "+ pair.getKey()+ " in our shop: " + pair.getValue());
         }
-        //System.out.println("Assortiment Piano in our shop: " + instruments.get(Piano.getName()));
-        //System.out.println("Assortiment Guitar in our shop: " + instruments.get(Guitar.getNameGuitar()));
-        //System.out.println("Assortiment Trumpet in our shop: " + instruments.get(Trumpet.getNameTrumpet()));
+
     }
 
 
-   }
+}
 
 
 

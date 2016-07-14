@@ -14,6 +14,7 @@ public class Runner {
 
         Order order = new Order(musicShop);
         order.createOrder();
+        order.printOrder();
     }
 }
 
